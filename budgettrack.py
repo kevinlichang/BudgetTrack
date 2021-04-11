@@ -201,8 +201,10 @@ class Account:
 
 
 def main():
+    print("Welcome to Budget Track!")
     account_name = input("Enter name of account: ")
     acc = Account(account_name)
+    print("----------------------------------------")
     print("\nAccount Name: {}".format(acc.get_name()))
     running_status = True
 
